@@ -4,8 +4,8 @@ var FrogsFlies = React.createClass({
   },
 
   componentWillMount: function () {
-    document.getElementById("canvas").height = window.innerHeight * 0.9;
-    document.getElementById("canvas").width = window.innerHeight * 0.9;
+    document.getElementById("canvas").height = window.innerHeight * 0.5;
+    document.getElementById("canvas").width = window.innerHeight * 0.5;
   },
 
   startGame: function (num, e) {
